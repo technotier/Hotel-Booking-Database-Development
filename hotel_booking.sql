@@ -33,8 +33,6 @@ CREATE TABLE booking (
         REFERENCES payment_status (id)
 );
 
-select * from booking;
-
 CREATE TABLE addon (
     id INT AUTO_INCREMENT,
     addon_name VARCHAR(100),
